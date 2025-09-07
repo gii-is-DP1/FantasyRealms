@@ -1,0 +1,9 @@
+.custom-dropdown-item {
+    color: #ffffff !important;
+    background-color: #ba68c8;
+  }
+  
+  .custom-dropdown-item:hover {
+    background-color: #8e44ad !important;
+    border-radius: 10px;
+  }  

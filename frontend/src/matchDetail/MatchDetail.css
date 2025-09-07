@@ -1,0 +1,95 @@
+.centered-card {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.players-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 1.5em;
+  gap: 2em;
+}
+
+.players-list {
+  width: 100%;
+  max-width: 300px;
+}
+
+.player-list-item {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.star-icon-absolute {
+  color: #FFD700;
+  left: 50px;
+  position: absolute;
+}
+
+.star-icon-margin {
+  color: #FFD700;
+  margin-right: 10px;
+}
+
+.toggle-role-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.toggle-role-button {
+  margin: 10px;
+  background-color: #ba68c8 !important;
+  color: white;
+}
+
+.friends-list {
+  width: 100%;
+  max-width: 300px;
+}
+
+.friends-list-item {
+  display: flex;
+  justify-content: center;
+}
+
+.friend-button {
+  color: white;
+  width: 100%;
+}
+
+.friend-button-online {
+  background-color: #4caf50 !important;
+}
+
+.friend-button-offline {
+  background-color: #ba68c8 !important;
+}
+
+.bottom-buttons-container {
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.join-button {
+  background-color: #ba68c8 !important;
+  color: white;
+}
+
+.start-match-button {
+  color: white;
+}
+
+.start-match-button-green {
+  background-color: #4caf50 !important;
+}
+
+.start-match-button-gray {
+  background-color: #818081 !important;
+}

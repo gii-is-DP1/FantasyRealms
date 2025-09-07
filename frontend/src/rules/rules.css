@@ -1,0 +1,14 @@
+.collapse-button {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 1rem;
+    background-color: #4a148c !important;
+  }
+  
+  .collapse-button:active {
+    background-color: #ba68c8 !important;
+  }
+  
+  .collapse-button:focus {
+    background-color: #ba68c8 !important;
+  }

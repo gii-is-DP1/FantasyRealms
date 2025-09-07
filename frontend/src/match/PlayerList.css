@@ -1,0 +1,48 @@
+.player-list-container {
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .player-list-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .player-list-item {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+  }
+  
+
+  .player-list-username {
+    max-width: 60%;
+    word-break: break-word;
+  }
+  
+
+  .player-list-turn {
+    max-width: 40%;
+    color: red;
+    word-break: break-word;
+  }
+  
+
+  .player-list-turn.blue {
+    color: blue;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .player-list-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

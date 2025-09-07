@@ -1,0 +1,49 @@
+.hero-div{
+    padding: 5rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-family: "MedievalFont";
+    margin: 0;
+}
+
+.hero-div h1{
+    font-size: 8rem;
+    font-weight: 700;
+    color: #2f324f;
+    text-align: center;
+    font-family: 'MedievalFont';
+    background-color: transparent;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: "#4a148c";
+    border: none;
+}
+
+.home-button{
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem;
+    text-decoration: none;
+    background-color: #4a148c;
+    font-family: 'MedievalFont';  
+}
+
+.hero-div h3{
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'MedievalFont';
+    src: url('frontend/src/static/fonts/AutumnFlowers-9YVZK.otf') format('truetype');
+}
